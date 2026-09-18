@@ -91,18 +91,12 @@ a {
   color: var(--ink);
 }
 
-.seal {
+.logo {
   width: 36px;
   height: 36px;
   border-radius: 10px;
-  display: grid;
-  place-items: center;
-  background: var(--primary);
-  color: #fff;
-  font-family: "Noto Serif SC", serif;
-  font-size: 1.05rem;
-  font-weight: 700;
-  box-shadow: 0 6px 16px rgba(184, 58, 46, 0.22);
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .nav {
@@ -199,11 +193,10 @@ a {
   letter-spacing: 0.12em;
 }
 
-.hero-brand .seal {
-  width: clamp(56px, 8vw, 76px);
-  height: clamp(56px, 8vw, 76px);
-  border-radius: 18px;
-  font-size: clamp(1.6rem, 3vw, 2.1rem);
+.hero-brand .logo {
+  width: clamp(64px, 9vw, 88px);
+  height: clamp(64px, 9vw, 88px);
+  border-radius: 20px;
 }
 
 .hero-lead {
