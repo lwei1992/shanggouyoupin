@@ -196,7 +196,7 @@ a {
 .hero-brand .logo {
   width: clamp(64px, 9vw, 88px);
   height: clamp(64px, 9vw, 88px);
-  border-radius: 20px;
+  border-radius: 22%;
 }
 
 .hero-lead {
